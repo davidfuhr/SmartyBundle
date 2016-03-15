@@ -28,7 +28,8 @@
     "require-dev": {
         "symfony/security": "~2.1",
         "symfony/yaml": "~2.1",
-        "symfony/assetic-bundle": "~2.0"
+        "symfony/assetic-bundle": "~2.0",
+        "symfony/form": "~2.1"
     },
     "suggest": {
         "symfony/assetic-bundle": "Assetic support in Smarty templates",
@@ -41,7 +42,6 @@
         "psr-0": { "NoiseLabs\\Bundle\\SmartyBundle": "" }
     },
     "target-dir": "NoiseLabs/Bundle/SmartyBundle",
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.2.x-dev"
