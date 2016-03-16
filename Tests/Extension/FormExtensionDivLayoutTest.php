@@ -40,9 +40,24 @@ use Symfony\Component\Form\Tests\AbstractDivLayoutTest;
 
 class FormExtensionDivLayoutTest extends AbstractDivLayoutTest
 {
+    /**
+     * @var ProjectTemplateLoader
+     */
     private $loader;
+
+    /**
+     * @var SmartyRenderer
+     */
     private $renderer;
+
+    /**
+     * @var SmartyEngine
+     */
     private $engine;
+
+    /**
+     * @var FormExtension
+     */
     protected $extension;
 
     protected function setUp()
